@@ -1,4 +1,4 @@
-# System Stats SAYONARA-USERBOT
+# System Stats EMON-UBOT
 # by fix rendy
 import asyncio
 from asyncio import create_subprocess_exec as asyncrunapp
@@ -159,7 +159,7 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**☛**sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ Versi:** \n "
+            "**☛**ᴇᴍᴏɴ-ᴜʙᴏᴛ Versi:** \n "
             f"{verout}"
             "\n**☛**Revisi:**\n "
             f"{revout}"
@@ -224,11 +224,11 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     await alive.edit("`PINGING.....`")
     await asyncio.sleep(1)
-    await alive.edit("💀")
+    await alive.edit("👿")
     await asyncio.sleep(3)
     output = (
         f"●▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬● \n"
-        f"✾ 🤴 • `ᴏᴡɴᴇʀ    :`[sᴀʏᴏɴᴀʀᴀ](t.me/Sayonara_nih) \n"
+        f"✾ 🤴 • `ᴏᴡɴᴇʀ    :`[ᴇᴍᴏɴ](t.me/berakVbss) \n"
         f"✾ 🖥️ • `ꜱʏꜱᴛᴇᴍ   :`Ubuntu 20.10 \n"
         f"✾ ⚙️ • `ᴛᴇʟᴇᴛʜᴏɴ :`v.{version.__version__} \n"
         f"✾ 🐍 • `ᴘʏᴛʜᴏɴ   :`v.{python_version()} \n"
@@ -255,13 +255,13 @@ async def amireallyalive(alive):
         await alive.delete()
 
 
-@register(outgoing=True, pattern=r"^\.(?:ralive|ron)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:pler|ron)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**╭✠╼━━━━━━❖━━━━━━━✠╮**\n"
-        f" **💀sᴀʏᴏɴᴀʀᴀ - ᴜsᴇʀʙᴏᴛ💀** \n"
+        f" **      ✨ᴇᴍᴏɴ - ᴜʙᴏᴛ✨** \n"
         f"**╰✠╼━━━━━━❖━━━━━━━✠╯**\n"
         f"❃ **👑ᴏᴡɴᴇʀ**       ➥ `{DEFAULTUSER}` \n"
         f"❃ **🤠ᴜsᴇʀɴᴀᴍᴇ**    ➥ `@{user.username}` \n"
@@ -270,7 +270,7 @@ async def amireallyalive(alive):
         f"❃ **😎ᴠᴇʀsɪ ʙᴏᴛ**   ➥ `7.1` \n"
         f"❃ **📕ᴍᴏᴅᴜʟ**       ➥ `{len(modules)}` \n\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
-        f"[{REPO_NAME}](https://github.com/krisnadiwangga/Sayonara-Userbot) || [𝗚𝗥𝗢𝗨𝗣](t.me/naraxmusic) || [𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠]({IG_ALIVE})\n"
+        f"[{REPO_NAME}](https://github.com/Emon135/emon-ubot) || [𝗚𝗥𝗢𝗨𝗣](t.me/greysupport) || [𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠]({IG_ALIVE})\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ **")
     if ALIVE_LOGO:
         try:
@@ -303,7 +303,7 @@ async def redis(alive):
     await alive.edit("__Sedang Memuat...__")
     await alive.edit("__Sedang Memuat....__")
     await alive.edit("__Sedang Memuat..__")
-    await alive.edit("💀")
+    await alive.edit("👿")
     await asyncio.sleep(2)
     output = (
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
@@ -314,9 +314,9 @@ async def redis(alive):
         f"┣  `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
         f"┣  `Bot Ver  :` {BOT_VER} \n"
         f"┣  `Modules  :` {len(modules)} Modules \n"
-        f"┣  `GitHub   :` [Krisna D](https://github.com/krisnadiwangga/Sayonara-Userbot) \n"
-        f"┣  `Support  :` [Groups](https://t.me/Naraxmusic) \n"
-        f"┣  `Owner    :` [Sayonara](https://t.me/Sayonara_nih) \n"
+        f"┣  `GitHub   :` [emon-ubot](https://github.com/Emon135/emon-ubot) \n"
+        f"┣  `Support  :` [Groups](https://t.me/greysupport) \n"
+        f"┣  `Owner    :` [✞︎ᴇᴍᴏɴ](https://t.me/berakVbss) \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
