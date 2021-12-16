@@ -9,7 +9,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 @register(outgoing=True, pattern='^P(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("𝐀𝐬𝐬𝐚𝐥𝐚𝐦𝐮'𝐚𝐥𝐚𝐢𝐤𝐮𝐦...")
+    await typew.edit("𝐀𝐬𝐬𝐚𝐥𝐚𝐦𝐮'𝐚𝐥𝐚𝐢𝐤𝐮𝐦 𝐖𝐚𝐫𝐨𝐡𝐦𝐚𝐭𝐮𝐥𝐥𝐚𝐡𝐢 𝐖𝐚𝐛𝐚𝐫𝐨𝐤𝐚𝐭𝐮𝐡...")
 
 
 @register(outgoing=True, pattern='^.atg(?: |$)(.*)')
@@ -21,7 +21,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^L(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("𝐖𝐚'𝐚𝐥𝐚𝐢𝐤𝐮𝐦𝐬𝐚𝐥𝐚𝐦...")
+    await typew.edit("𝐖𝐚'𝐚𝐥𝐚𝐢𝐤𝐮𝐦𝐬𝐚𝐥𝐚𝐦 𝐖𝐚𝐫𝐨𝐡𝐦𝐚𝐭𝐮𝐥𝐥𝐚𝐡𝐢 𝐖𝐚𝐛𝐚𝐫𝐨𝐤𝐚𝐭𝐮𝐡...")
 
 
 @register(outgoing=True, pattern='^.ast(?: |$)(.*)')
@@ -57,7 +57,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^Y(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**YAUDAH IYAAAAAA ASU**")
+    await typew.edit("**YAUDAH IYAAAAAA SAYANG**")
 
 
 @register(outgoing=True, pattern='^C(?: |$)(.*)')
@@ -111,7 +111,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^O(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**JANGAN MAEN BOT MULU, ALAY LU NGENTOTT,KESANNYA NORAK, CUIHHHH!!!**")
+    await typew.edit("**JANGAN MAEN BOT MULU TOLOL, ALAY LU NGENTOTT,KESANNYA NORAK, BHAHAHA!!!**")
 
 
 @register(outgoing=True, pattern='^G(?: |$)(.*)')
