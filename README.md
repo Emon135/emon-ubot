@@ -1,36 +1,39 @@
 <h1 align="center"><imgsrc="./resources/extras/geez.gif" width="35px">🔥EMON-UBOT🔥<imgsrc="./resources/extras/geez.gif" width="35px"></h1>
-</p>
+
+<a href="https://www.instagram.com/diiyyo2808?r=nametag"><img src="https://telegra.ph/file/b84641ef1add1e0a0f2b3.jpg" width="320" height="211" alt="  EMON-UBOT" /></a>
+
 <p align="center">
-    <a href="https://github.com/Krisnadiwangga/Sayonara-Userbot"> <img src="https://img.shields.io/github/repo-size/noob-kittu/YoneRobot?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/Krisnadiwangga/Sayonara-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/noob-kittu/YoneRobot?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/Krisnadiwangga/Sayonara-Userbot/issues"> <img src="https://img.shields.io/github/issues/noob-kittu/YoneRobot?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/Krisnadiwangga/Sayonara-Userbot/network/members"> <img src="https://img.shields.io/github/forks/noob-kittu/YoneRobot?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
-    <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
-</p>
+  <a href="https://github.com/Emon135/emon-ubot/fork">
+    <img src="https://img.shields.io/github/forks/Emon135/emon-ubot?label=Fork&style=social">
+    
+  </a>
+  <a href="https://github.com/Emon135/emon-ubot">
+    <img src="https://img.shields.io/github/stars/Emon135/emon-ubot?style=social">
+  </a>
 
 
 
 
-![VIEWS](https://komarev.com/ghpvc/?username=Krisnadiwangga)
-<a href="https://t.me/NaraXmusic"><img src="https://img.shields.io/badge/KODE%20PENILAIAN-A+-blue.svg?style=for-the-badge&logo=Factor.">
-  [![GitHub issues](https://img.shields.io/github/issues/Krisnadiwangga/Sayonara-Userbot?&style=plastic&logo=github)](https://github.com/Krisnadiwangga/Sayonara-Userbot/issues)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Krisnadiwangga/Sayonara-Userbot?&style=plastic&logo=github)](https://github.com/Krisnadiwangga/Sayonara-Userbot/graphs/commit-activity)
-[![GitHub contributors](https://img.shields.io/github/contributors/Randi356/VEGETA-USERBOT?&style=plastic&logo=github)](https://GitHub.com/Krisnadiwangga/Sayonara-Userbot/graphs/contributors/)
+![VIEWS](https://komarev.com/ghpvc/?username=Emon135)
+<a href="https://t.me/greysupport"><img src="https://img.shields.io/badge/KODE%20PENILAIAN-A+-blue.svg?style=for-the-badge&logo=Factor.">
+  [![GitHub issues](https://img.shields.io/github/issues/Emon135/emon-ubot?&style=plastic&logo=github)](https://github.com/Emon135/emon-ubot/issues)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Emon135/emon-ubot?&style=plastic&logo=github)](https://github.com/Emon135/emon-ubot/graphs/commit-activity)
+[![GitHub contributors](https://img.shields.io/github/contributors/Randi356/VEGETA-USERBOT?&style=plastic&logo=github)](https://GitHub.com/Emon135/emon-ubot/graphs/contributors/)
 
 <p align="center">
 
 [<img src="https://telegra.ph/file/843996dd8a889dd01109c.jpg">](https://t.me/greysupport) 
   
-#### JOIN YA KE SAYONARA SUPPORT!!
+#### JOIN SINI TOD!!
 
-<a href="https://t.me/NaraXmusic"><img src="https://img.shields.io/badge/Channel%20SAYONARA%20SUPPORT-red.svg?style=for-the-badge&logo=Telegram"></a>
-<a href="https://t.me/Sayonara_Story"><img src="https://img.shields.io/badge/Join-Sayonara%20Story-purple.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/greysupport"><img src="https://img.shields.io/badge/Channel%20GREY%20SUPPORT-red.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/chipmunkchanel"><img src="https://img.shields.io/badge/Join-Garlexs-purple.svg?style=for-the-badge&logo=Telegram"></a>
 
 
 ### AMBIL STRING DI BAWAH INI:
 
 ##
-[![SAYONARA-USERBOT-STRING](https://replit.com/badge/github/@ramadhani892/RAM-UBOT)](https://replit.com/@Randi356/StringSession-1#main.py)
+[![EMON-USERBOT-STRING](https://replit.com/badge/github/@ramadhani892/RAM-UBOT)](https://replit.com/@Randi356/StringSession-1#main.py)
 ##
   
   # Heroku
