@@ -27,7 +27,11 @@ GCAST_BLACKLIST = [
     -1001459701099,  # CatUserbotSupport
     -1001109837870,  # TelegramBotIndonesia
     -1001752592753,  # Skyzusupport
-    -1001273141346, # Remix Support Vegeta
+    -1001273141346,  # Remix Support Vegeta
+    -1001299096186,  # macan kumbang
+    -1001524223767,  # 20 an
+    -1001578091827,  # prime support
+    -1001501457623,  # pv
 ]
 
 
