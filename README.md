@@ -26,8 +26,8 @@
   
 #### JOIN SINI TOD!!
 
-<a href="https://t.me/greysupport"><img src="https://img.shields.io/badge/Channel%20GREY%20SUPPORT-red.svg?style=for-the-badge&logo=Telegram"></a>
-<a href="https://t.me/chipmunkchanel"><img src="https://img.shields.io/badge/Join-Garlexs-purple.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/greysupport"><img src="https://img.shields.io/badge/Group%20GREY%20SUPPORT-red.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/chipmunkchanel"><img src="https://img.shields.io/badge/Channel-Garlexs-purple.svg?style=for-the-badge&logo=Telegram"></a>
 
 
 ### AMBIL STRING DI BAWAH INI:
