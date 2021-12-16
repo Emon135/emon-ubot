@@ -1,7 +1,7 @@
 {
-  "name": "SAYONARA-USERBOT",
-  "description": "[SAYONARA-USERBOT] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/07aa50bd3ab3a1442f1ed.jpg",
+  "name": "EMON-UBOT",
+  "description": "[EMIN-UBOT] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
+  "logo": "https://telegra.ph/file/843996dd8a889dd01109c.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,8 +9,8 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Krisnadiwangga/Sayonara-Userbot.",
-  "telegram": "https://t.me/Sayonara_nih",
+  "repository": "https://github.com/Emon135/emon-ubot.",
+  "telegram": "https://t.me/berakVbss",
   "success_url": "https://t.me/gsahmanja",
   "stack": "container",
   "env": {
@@ -24,7 +24,7 @@
     },
     "ALIVE_LOGO": {
       "description": "BUAT ALIVE LOGO MU SENDIRI.",
-      "value": "https://telegra.ph/file/07aa50bd3ab3a1442f1ed.jpg",
+      "value": "https://telegra.ph/file/843996dd8a889dd01109c.jpg",
       "required": true
      },
      "STRING_SESSION": {
@@ -83,7 +83,7 @@
     },
     "ALIVE_NAME": {
       "description": "Nama untuk menunjukan pesan .alive",
-      "value": "Sayonara-Userbot",
+      "value": "emon-ubot",
       "required": true
     },
     "S_PACK_NAME": {
