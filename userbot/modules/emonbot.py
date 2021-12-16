@@ -9,9 +9,9 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("`Pertama-tama kamu cantik`")
     sleep(2)
-    await typew.edit("`Kedua kamu manis`")
+    await typew.edit("`Kedua kamu burik`")
     sleep(1)
-    await typew.edit("`Dan yang terakhir adalah aku bukan type mu 😊`")
+    await typew.edit("`Dan yang terakhir adalah goyangan kamu kurang asik 😊`")
 # Create by myself @localheart
 
 
@@ -25,10 +25,10 @@ async def typewriter(typew):
                      "`\n┻┳|￣  )`"
                      "`\n┳ﾐ(￣ ／`"
                      "`\n┻┳T￣|`"
-                     "\n**Permisi Aku mau nimbrung Kk..**")
+                     "\n**Permisi boleh minta pap nya Kk..**")
 
 
-@register(outgoing=True, pattern='^.sayo(?: |$)(.*)')
+@register(outgoing=True, pattern='^.emon(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**kyy Peler☑️**")
@@ -52,10 +52,25 @@ async def typewriter(typew):
     await typew.edit("**Tonic,MengRibet☑️**")
     await typew.edit("**Tonic,MengRibet✅**")
     sleep(2)
-    await typew.edit("**Penggali,Mengintil☑️**")
-    await typew.edit("**Penggali,Mengintil✅**")
+    await typew.edit("**erna,Mengintil☑️**")
+    await typew.edit("**erna,Mengintil✅**")
     sleep(2)
-    await typew.edit("**CUMA SAYO YANG BENER !**")
+    await typew.edit("**Grey,Stres☑️**")
+    await typew.edit("**Grey,stres✅**")
+    sleep(2)
+    await typew.edit("**Gery,autis☑️**")
+    await typew.edit("**Gery,autis✅**")
+    sleep(2)
+    await typew.edit("**Xander,jelek☑️**")
+    await typew.edit("**Xander,jelek✅**")
+    sleep(2)
+    await typew.edit("**Mamed,Atheis☑️**")
+    await typew.edit("**Mamed,Atheis✅**")
+    sleep(2)
+    await typew.edit("**Fidz,Sagapung☑️**")
+    await typew.edit("**Fids,Sagapung✅**")
+    sleep(2)
+    await typew.edit("**CUMA EMON YG GANTENG WARAS DAN TIDAK SOMBONG !**")
     sleep(3
 )
 
@@ -97,13 +112,13 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`SUCCESSFULLY COMPELED`")
     sleep(1)
-    await typew.edit("`💀SUPPORT` @NaraXmusic 💀 CENGHA` @Sayonara_story")
+    await typew.edit("`💀SUPPORT` @greysupport 💀 CENGHA` @chipmunkchanel")
 
 
 
 
 CMD_HELP.update({
-    "sayobot":
+    "emonbot":
     "`.sayo`\
     \nUsage: menampilkan alive bot.\
     \n\n`.sadboy`\
@@ -111,6 +126,6 @@ CMD_HELP.update({
     \nUsage: hiks\
     \n\n`.gc`\
     \nUsage: support\
-    \n\n`.punten` ; `.sayonara`\
+    \n\n`.punten` ; `.emon`\
     \nUsage: misi."
 })
