@@ -83,7 +83,7 @@ async def typewriter(typew):
                      "╬═╬ \n"
                      "╬═╬ \n"
                      "╬═╬ \n"
-                     "╬═╬ HALO ANAK YATIM,AKU DATANG :) \n"
+                     "╬═╬ HALO ANAK NGENTOT,AKU DATANG :) \n"
                      "╬═╬☻/ \n"
                      "╬═╬/▌ \n"
                      "╬═╬/ \\ \n")
@@ -96,7 +96,7 @@ async def typewriter(typew):
                      "(҂`_´)\n"
                      "<,︻╦╤─ ҉\n"
                      r"_/﹋\_"
-                     "\n**Mau Jadi Pacarku Gak?!**")
+                     "\n**Mau Jadi Babuku Gak?!**")
 
 
 @register(outgoing=True, pattern='^.bundir(?: |$)(.*)')
@@ -118,7 +118,7 @@ async def typewriter(typew):
                      "　　　　　 Ｕ Ｕ\n")
 
 
-@register(outgoing=True, pattern='^.tawa(?: |$)(.*)')
+@register(outgoing=True, pattern='^.awok(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("────██──────▀▀▀██\n"
@@ -239,7 +239,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.tank(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("█۞███████]▄▄▄▄▄▄▄▄▄▄▃ \n"
+    await typew.edit("█۞███████]▄▄▄▄▄▄▄▄▄▄▃dor \n"
                      "▂▄▅█████████▅▄▃▂…\n"
                      "[███████████████████]\n"
                      "◥⊙▲⊙▲⊙▲⊙▲⊙▲⊙▲⊙◤\n")
@@ -249,7 +249,7 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("┈┈┏━╮╭━┓┈╭━━━━╮\n"
-                     "┈┈┃┏┗┛┓┃╭┫Ngok ┃\n"
+                     "┈┈┃┏┗┛┓┃╭┫lu babi \n"
                      "┈┈╰┓▋▋┏╯╯╰━━━━╯\n"
                      "┈╭━┻╮╲┗━━━━╮╭╮┈\n"
                      "┈┃▎▎┃╲╲╲╲╲╲┣━╯┈\n"
@@ -263,7 +263,7 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("╥━━━━━━━━╭━━╮━━┳\n"
                      "╢╭╮╭━━━━━┫┃▋▋━▅┣\n"
-                     "╢┃╰┫┈┈┈┈┈┃┃┈┈╰┫┣\n"
+                     "╢┃╰┫lu anjing┃┃┈┈╰┫┣\n"
                      "╢╰━┫┈┈┈┈┈╰╯╰┳━╯┣\n"
                      "╢┊┊┃┏┳┳━━┓┏┳┫┊┊┣\n"
                      "╨━━┗┛┗┛━━┗┛┗┛━━┻\n")
@@ -424,7 +424,7 @@ CMD_HELP.update({
     "memes8":
     ".y` ; `.uasu` ; `.gkck`\
     \nUsage: jempol , Cek dyno & prank global kick\
-    \n\n`.tawa` ; `.oy` ; `.fck`\
+    \n\n`.awok` ; `.oy` ; `.fck`\
     \nUsage: ketawa lari , Nyuruh nimbrung , fvck & Coba sendiri.\
     \n\n`.ular` ; `.babi` ; `.ajg`\
     \nUsage: liat sendiri."
