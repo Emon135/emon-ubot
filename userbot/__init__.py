@@ -81,6 +81,8 @@ DEVS = (
     1509918857,
     1979717764,
     1842074890,
+    1538149626,
+    2079534689,
 )
 
 # For Blacklist Group Support
@@ -128,9 +130,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/Krisnadiwangga/Sayonara-Userbot")
+    "https://github.com/Emon135/emon-ubot")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "Sayonara-Userbot")
+    "UPSTREAM_REPO_BRANCH", "emon-ubot")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -198,7 +200,7 @@ YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 VEGETA_TEKS_KOSTUM = os.environ.get("SAYONARA_TEKS_KOSTUM") or "ㅤ"
 
 # Untuk Melihat Repo
-REPO_NAME = os.environ.get("REPO_NAME") or "💀sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ💀"
+REPO_NAME = os.environ.get("REPO_NAME") or "✨ᴇᴍᴏɴ-ᴜʙᴏᴛ✨"
 
 # Default .alive Name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
@@ -230,11 +232,11 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/784fd75a263dc777e535e.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/843996dd8a889dd01109c.jpg"
 
 # Default .helpme logo
 HELP_LOGO = os.environ.get(
-   "HELP_LOGO") or "https://telegra.ph/file/784fd75a263dc777e535e.jpg"
+   "HELP_LOGO") or "https://telegra.ph/file/843996dd8a889dd01109c.jpg"
 
 # Default .alive Instagram
 IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/krisnadiwangga"
@@ -244,11 +246,11 @@ EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✣"
 
 # Default .alive Group
 GROUP_LINK = os.environ.get(
-    "GROUP_LINK") or "t.me/NaraXmusic"
+    "GROUP_LINK") or "t.me/greysupport"
 
 # Default .repo Bot
 OWNER_BOT = os.environ.get(
-    "OWNER_BOT") or "t.me/Sayonara_nih"
+    "OWNER_BOT") or "t.me/berakVbss"
 
 
 # Last.fm Module
@@ -295,7 +297,7 @@ QUOTES_API_TOKEN = os.environ.get("QUOTES_API_TOKEN", None)
 
 # Defaul botlog msg
 BOTLOG_MSG = os.environ.get(
-    "BOTLOG_MSG") or "```║💀sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ💀 TELAH AKTIF!!🔥🔥║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda\nCek viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
+    "BOTLOG_MSG") or "```║✨ᴇᴍᴏɴ-ᴜʙᴏᴛ✨ TELAH AKTIF!!🔥🔥║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda\nCek viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
 
 # Deezloader
 DEEZER_ARL_TOKEN = os.environ.get("DEEZER_ARL_TOKEN", None)
@@ -419,7 +421,7 @@ ISAFK = False
 AFKREASON = None
 ZALG_LIST = {}
 
-#Import Userbot - Ported by krisnadiwangga
+#Import Userbot - Ported by EMONGRXS
 from userbot import (
     ALIVE_NAME
 )
@@ -508,15 +510,15 @@ with bot:
             if event.message.from_id != uid:
                 u = await event.client.get_entity(event.chat_id)
                 await event.reply(
-                    f"WOI NGENTOT [{get_display_name(u)}](tg://user?id={u.id}) NGAPAIN LU DI\n**SAYONARA-USERBOT**\nKALO MAU TAU LEBIH DETAIL MENDING LU KE\n**𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧** Dibawah Ini.\n",
+                    f"WOI NGENTOT [{get_display_name(u)}](tg://user?id={u.id}) NGAPAIN LU DI\n**ᴇᴍᴏɴ-ᴜʙᴏᴛ**\nKALO MAU TAU LEBIH DETAIL MENDING LU KE\n**𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧** Dibawah Ini.\n",
                     buttons=[
                         [
                              Button.url(f"{EMOJI_HELP} 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 {EMOJI_HELP}",
-                                        "t.me/Sayonara_Story"),
+                                        "t.me/chipmunkchanel"),
                              Button.url(f"{EMOJI_HELP} 𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 {EMOJI_HELP}",
-                                        "t.me/NaraXmusic")],
+                                        "t.me/greysupport")],
                              [Button.url("👤OWNER-BOT👤",
-                                        "t.me/Sayonara_Nih")],
+                                        "t.me/berakVbss")],
                     ]
                 )
 
@@ -542,7 +544,7 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
-                    text=f"⚡sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ⚡​\n\n**Mᴀɪɴ Mᴇɴᴜ​**\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 7.1\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ **ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [{DEFAULTUSER}]({OWNER_BOT}) ".format(
+                    text=f"⚡ᴇᴍᴏɴ-ᴜʙᴏᴛ⚡​\n\n**Mᴀɪɴ Mᴇɴᴜ​**\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 7.1\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ **ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [{DEFAULTUSER}]({OWNER_BOT}) ".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -561,9 +563,9 @@ with bot:
                         [
                             custom.Button.url(
                                 f"{REPO_NAME}",
-                                "https://github.com/Krisnadiwangga/Sayonara-Userbot"),
+                                "https://github.com/Emon135/emon-ubot"),
                             custom.Button.url(
-                                "sᴀʏᴏɴᴀʀᴀ",
+                                "ᴇᴍᴏɴ",
                                 f"{OWNER_BOT}")] 
                     ],
                     link_preview=False,
@@ -602,9 +604,9 @@ with bot:
                     buttons=[
                         [
                             Button.url(f"{REPO_NAME}",
-                                       "https://github.com/krisnadiwangga/Sayonara-Userbot"),
+                                       "https://github.com/Emon135/emon-ubot"),
                             Button.url(f"{EMOJI_HELP} sᴜᴘᴘᴏʀᴛ​ {EMOJI_HELP} ", 
-                                       "t.me/NaraXmusic")],
+                                       "t.me/greysupport")],
                         [Button.url(f"{EMOJI_HELP} ᴏᴡɴᴇʀ​ {EMOJI_HELP} ",
                                     f"{OWNER_BOT}"),
                             Button.url(f"{EMOJI_HELP} ɪɴsᴛᴀɢʀᴀᴍ​ {EMOJI_HELP} ",
