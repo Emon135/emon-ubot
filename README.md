@@ -1,4 +1,4 @@
-<h1 align="center"><imgsrc="./resources/extras/geez.gif" width="35px">🔥SAYONARA-USERBOT🔥<imgsrc="./resources/extras/geez.gif" width="35px"></h1>
+<h1 align="center"><imgsrc="./resources/extras/geez.gif" width="35px">🔥EMON-UBOT🔥<imgsrc="./resources/extras/geez.gif" width="35px"></h1>
 </p>
 <p align="center">
     <a href="https://github.com/Krisnadiwangga/Sayonara-Userbot"> <img src="https://img.shields.io/github/repo-size/noob-kittu/YoneRobot?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
@@ -19,7 +19,7 @@
 
 <p align="center">
 
-[<img src="https://telegra.ph/file/07aa50bd3ab3a1442f1ed.jpg">](https://t.me/NaraXmusic) 
+[<img src="https://telegra.ph/file/843996dd8a889dd01109c.jpg">](https://t.me/greysupport) 
   
 #### JOIN YA KE SAYONARA SUPPORT!!
 
@@ -35,7 +35,7 @@
   
   # Heroku
   
-  <a href="https://heroku.com/deploy?template=https://github.com/Krisnadiwangga/Sayonara-Userbot.git"><img src="https://img.shields.io/badge/DEPLOY%20SAYONARA%20USERBOT%20DI%20HEROKU-red?style=flat&logo=Heroku" width="325" height="50.100" />
+  <a href="https://heroku.com/deploy?template=https://github.com/Emon135/emon-ubot.git"><img src="https://img.shields.io/badge/DEPLOY%20EMON%20UBOT%20DI%20HEROKU-red?style=flat&logo=Heroku" width="325" height="50.100" />
   
 
 <br>
