@@ -28,9 +28,9 @@ from userbot.events import register
 
 absen = [
     "**Hadir Ganteng** 🥵",
-    "**Hadir Bang Sayo** 😎",
+    "**Hadir Bang Emon** 😎",
     "**Hadir Kak** 😉",
-    "**Hadir Bang Sayo** 😁",
+    "**Hadir Bang Emon** 😁",
     "**Hadir Kak Maap Telat** 🥺",
 ]
 
@@ -86,7 +86,7 @@ async def redis(pong):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
     await pong.edit("`Connecting to server...`")
-    await pong.edit("💀")
+    await pong.edit("😈")
     await asyncio.sleep(3)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
@@ -97,7 +97,7 @@ async def redis(pong):
                     f"`{uptime}` \n" % (duration))
 
 
-@register(outgoing=True, pattern="^.ping$")
+@register(outgoing=True, pattern="^.piing$")
 async def pingme(pong):
     """For .ping command, ping the userbot from any chat."""
     uptime = await get_readable_time((time.time() - StartTime))
@@ -108,7 +108,7 @@ async def pingme(pong):
     await pong.edit("**50%█████▒▒▒▒▒**") 
     await pong.edit("**80%███████▒▒▒**") 
     await pong.edit("**100%██████████**")
-    await pong.edit("👻")
+    await pong.edit("😤")
     await asyncio.sleep(3)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
@@ -185,7 +185,7 @@ async def pingme(pong):
     start = datetime.now()
     await pong.edit("PONG")
     await asyncio.sleep(1)
-    await pong.edit("💀")
+    await pong.edit("😜")
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 9000
@@ -200,9 +200,9 @@ async def redis(pong):
     await asyncio.sleep(1)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ.... !!**\n**SAYONARA ONLINE** : `%sms`\n**UPTIMES PREEM** : `{uptime}🔥`" % (duration))
+    await pong.edit(f"**ᴇᴍᴏɴ-ᴜʙᴏᴛ.... !!**\n**EMON ONLINE** : `%sms`\n**UPTIMES PREEM** : `{uptime}🔥`" % (duration))
 
-@register(outgoing=True, pattern="^.crot$")
+@register(outgoing=True, pattern="^.ping$")
 async def redis(pong):
     """For .ping command, ping the userbot from any chat."""
     uptime = await get_readable_time((time.time() - StartTime))
@@ -243,7 +243,7 @@ async def redis(pong):
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**{ALIVE_NAME}**        \n"
                     f"**➾Kecepatan : ** '%sms'  \n"
-                    f"**➾Branch : ** 'Sayonara-Userbot` \n" % (duration))
+                    f"**➾Branch : ** 'emon-ubot` \n" % (duration))
 
 @register(outgoing=True, pattern="^.xping$")
 async def redis(pong):
@@ -261,7 +261,7 @@ async def redis(pong):
     await pong.edit("__Loading...__")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**💀sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ💀**\n"
+    await pong.edit(f"**✨ᴇᴍᴏɴ-ᴜʙᴏᴛ✨**\n"
                     f"➾ __Signal__    __:__ "
                     f"`%sms` \n"
                     f"➾ __Uptime__ __:__ "
@@ -282,7 +282,7 @@ async def redis(pong):
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**🔥sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ🔥**\n\n"
+    await pong.edit(f"**🔥ᴇᴍᴏɴ-ᴜʙᴏᴛ🔥**\n\n"
                     f"** ▹  Sɪɢɴᴀʟ   :** "
                     f"`%sms` \n"
                     f"** ▹  Uᴘᴛɪᴍᴇ  :** "
@@ -300,7 +300,7 @@ async def redis(pong):
     await pong.edit("**◕‿- PONG!!**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**🔥sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ🔥**\n"
+    await pong.edit(f"**🔥ᴇᴍᴏɴ-ᴜʙᴏᴛ🔥**\n"
                     f"❊ **Ping:** "
                     f"`%sms` \n"
                     f"❊ **Uptime:** "
@@ -375,7 +375,7 @@ async def redis(pong):
     await pong.edit(
         f"**{ALIVE_NAME}**        \n"
         f"**➾Kecepatan : ** %sms  \n"
-        f"**➾Branch : ** Sayonara-Userbot \n" % (duration)) 
+        f"**➾Branch : ** emon-ubot \n" % (duration)) 
 
 @register(outgoing=True, pattern="^!uping$")
 async def pingme(pong):
@@ -404,7 +404,7 @@ async def pingme(pong):
     await pong.edit("__**⚡PELER KONTOL⚡**__")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**⚡sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ⚡**\n"
+    await pong.edit(f"**⚡ᴇᴍᴏɴ-ᴜʙᴏᴛ⚡**\n"
                     f"⚡ **Kontolll !!:** "
                     f"`%sms` \n"
                     f"⚡ **uptime:** "
@@ -415,14 +415,14 @@ async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("💀")
+    await pong.edit("😈")
     await asyncio.sleep(3)
     await pong.edit("__**LAKIK**__")
-    await pong.edit("__**💀AKIK**__")
-    await pong.edit("__**L💀KIK**__")
-    await pong.edit("__**LA💀IK**__")
-    await pong.edit("__**LAK💀K**__")
-    await pong.edit("__**LAKI💀**__")
+    await pong.edit("__**👿AKIK**__")
+    await pong.edit("__**L😤KIK**__")
+    await pong.edit("__**LA😈IK**__")
+    await pong.edit("__**LAK😤K**__")
+    await pong.edit("__**LAKI😈**__")
     await pong.edit("__**DUAR**__")
     await asyncio.sleep(1)
     await pong.edit("😈")
@@ -431,14 +431,14 @@ async def pingme(pong):
     await asyncio.sleep(1)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**💀sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ💀**\n"
-                    f"💀 **PINKING !!:** "
+    await pong.edit(f"**😈ᴇᴍᴏɴ-ᴜʙᴏᴛ😈**\n"
+                    f"😈 **PINKING !!:** "
                     f"`%sms` \n"
-                    f"💀 **uptime:** "
+                    f"😈 **uptime:** "
                     f"`{uptime}` \n" % (duration))
 
 CMD_HELP.update({
-    "ping": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.ping` or `.pings` or `.crot` or `.hacker` or `.xping` or `.vping` or `.punk` `!uping` `peler` `Lakik`\
+    "ping": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.ping` or `.pings` or `.piing` or `.hacker` or `.xping` or `.vping` or `.punk` `!uping` `peler` `Lakik`\
          \n↳ : Untuk Menunjukkan Ping Bot Anda.\
          \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `Speed` or `.sping` or `.sinyal` or `.bping`\
          \n↳ : Untuk Menunjukkan Kecepatan Jaringan Anda.\
