@@ -1,7 +1,7 @@
 # Using Python Slim-Buster
 FROM xluxz/geezproject:buster
-# Sayonara-Userbot
-# Sayonara
+# emon-ubot
+# emon
 
 RUN git clone -b emon-ubot https://github.com/Emon135/emon-ubot /root/userbot
 RUN mkdir /root/userbot/.bin
