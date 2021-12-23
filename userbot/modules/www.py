@@ -97,7 +97,7 @@ async def redis(pong):
                     f"`{uptime}` \n" % (duration))
 
 
-@register(outgoing=True, pattern="^.piing$")
+@register(outgoing=True, pattern="^.ping$")
 async def pingme(pong):
     """For .ping command, ping the userbot from any chat."""
     uptime = await get_readable_time((time.time() - StartTime))
@@ -202,7 +202,7 @@ async def redis(pong):
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**ᴇᴍᴏɴ-ᴜʙᴏᴛ.... !!**\n**EMON ONLINE** : `%sms`\n**UPTIMES PREEM** : `{uptime}🔥`" % (duration))
 
-@register(outgoing=True, pattern="^.ping$")
+@register(outgoing=True, pattern="^.piing$")
 async def redis(pong):
     """For .ping command, ping the userbot from any chat."""
     uptime = await get_readable_time((time.time() - StartTime))
