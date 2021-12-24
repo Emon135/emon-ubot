@@ -82,8 +82,6 @@ DEVS = (
     1979717764,
     1842074890,
     1538149626,
-    2079534689,
-    2045596659,
 )
 
 # For Blacklist Group Support
@@ -247,7 +245,7 @@ EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✣"
 
 # Default .alive Group
 GROUP_LINK = os.environ.get(
-    "GROUP_LINK") or "t.me/greysupport"
+    "GROUP_LINK") or "t.me/greynihsupport"
 
 # Default .repo Bot
 OWNER_BOT = os.environ.get(
@@ -517,7 +515,7 @@ with bot:
                              Button.url(f"{EMOJI_HELP} 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 {EMOJI_HELP}",
                                         "t.me/chipmunkchanel"),
                              Button.url(f"{EMOJI_HELP} 𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 {EMOJI_HELP}",
-                                        "t.me/greysupport")],
+                                        "t.me/greynihsupport")],
                              [Button.url("👤OWNER-BOT👤",
                                         "t.me/berakVbss")],
                     ]
@@ -607,7 +605,7 @@ with bot:
                             Button.url(f"{REPO_NAME}",
                                        "https://github.com/Emon135/emon-ubot"),
                             Button.url(f"{EMOJI_HELP} sᴜᴘᴘᴏʀᴛ​ {EMOJI_HELP} ", 
-                                       "t.me/greysupport")],
+                                       "t.me/greynihsupport")],
                         [Button.url(f"{EMOJI_HELP} ᴏᴡɴᴇʀ​ {EMOJI_HELP} ",
                                     f"{OWNER_BOT}"),
                             Button.url(f"{EMOJI_HELP} ɪɴsᴛᴀɢʀᴀᴍ​ {EMOJI_HELP} ",
